@@ -1,0 +1,23 @@
+    ==
+  
+    snmp-server community public RO
+    snmp-server host 10.1.1.100 version 2c public
+    snmp-server enable traps
+    * logging trap notification *
+  
+    ==
+  
+    interface GigabitEthernet0/1
+      description Customer A Link
+      * vrf forwarding CUSTOMER_A *
+      * ip address 10.1.1.1 255.255.255.0 *
+  
+    vrf要設定在ip address之前（清空設定）
+      
+    ==
+
+  ntpv4 > ipv6
+
+    ==
+
+    
