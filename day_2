@@ -1,8 +1,24 @@
-	==
+==
 
-	RSSI : dbm
-  SNR : signal / noise db
+RSSI : dbm < -60 is good
+SNR : signal / noise db
 
-  ==
+==
+
+monitor session 1 source interface Giga0/1 tx
+monitor session 1 source vlan 10
+(choose one)
+
+==
+
+master controller mode:
+  When there is a master controller enabled, 
+  all newly added access points with no primary, secondary, or tertiary controllers 
+  assigned associate with the master controller on the same subnet.
+
+==
+
+
+
 
 	
