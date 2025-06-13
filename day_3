@@ -1,0 +1,30 @@
+==
+
+client.connect(ip, port = 22, username = user, password = pwd)
+stdin, stdout, stderr = client.exec_command('show run')
+print(stdout)
+
+==
+
+aaa new model
+aaa authentication login [default / console / telnet] [group RADIUS / TACACS+ / none]
+aaa authorization exec default group radius if-authenticated 
+  > 如果radius沒有回應，但使用者有通過認證（fallback回驗證階段），還是可以進入EXEC模式。
+
+==
+
+Option 43 = 0xF104C0A80101
+  > F1 : Cisco 用 F1 表示 WLC discovery
+  > 04 : Sub-option Length（4 bytes）
+  > C0 A8 01 01 : 192.168.1.1(HEX格式)
+
+==
+
+client > 
+  PEAP(Protected EAP) = 802.1X > 
+    EAP封包封裝成RADIUS(layer 4)封包 > 
+      RADIUS server驗證
+
+==
+
+
