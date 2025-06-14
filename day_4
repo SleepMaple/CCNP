@@ -6,3 +6,19 @@ global server list：有CA能夠回應認證的RADIUS SERVER，可能帶有惡�
 
 ==
 
+event cli pattern "config t" sync no skip yes
+> sync no：不等腳本執行完才執行指令。
+> skip yes：不執行命令，只執行腳本。
+
+==
+
+YANG: data model
+(protocol)netconf: ssh, xml
+(protocol)restconf: http/s, xml/json
+
+ansible: no agent, use ssh or api
+chef: have agent, use agent 
+
+==
+
+
