@@ -1,0 +1,23 @@
+==
+
+OSPF packet type:
+  HELLO： 224.0.0.5發送封包
+  DBD：LSDB
+  LSR：request
+  LSU：update
+  LSack：ACK
+
+「資料結構」LSA：多個LSA可以組成LSDB。
+
+type 1：router
+type 2：network
+type 3：summary
+type 5：AS external
+type 7：NSSA
+
+==
+
+為什麼需要GRE over IPSEC：
+  因為單純的IPSEC不能傳遞multicast, broadcast封包，所以OSPF等路由協定沒辦法over IPSEC上面，所以要先放在GRE上面跑。
+
+==
