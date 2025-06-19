@@ -1,0 +1,7 @@
+==
+
+EAP-TLS(PEAP)：需要RADIUS的憑證。
+EAP-FAST：不需要。
+
+==
+
