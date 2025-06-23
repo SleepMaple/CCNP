@@ -1,0 +1,18 @@
+==
+
+sampler "name"
+  mode random 1 out-of 2
+exit
+  
+interface giga 0/0
+  ip flow monitor "name" sampler "name" input
+
+==
+
+master controller mode:
+  讓尚未註冊的AP找到WLC並加入。
+
+==
+
+
+  
