@@ -8,3 +8,8 @@ REST API使用API KEY做認證，用預先定義好的字串來當作驗證的�
 
 ==
 
+PSN(Policy Services Node) in cisco ISE:
+  FQDN解出來的IP會指向PSN，做驗證用。
+
+==
+
