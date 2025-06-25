@@ -1,0 +1,21 @@
+==
+
+integration API:
+  westbound interface for ITSM, IPAM and reporting
+
+==
+
+ip sla responder udp-echo ipaddress 10.10.10.1 port 6336
+
+==
+
+sensor mode:
+  模擬用戶端，並且能夠診斷連線錯誤。
+
+client mode:
+  單純模擬用戶端。
+
+se-connect(spectrum expert) mode:
+  抓取封包給wireshark做分析。
+
+==
