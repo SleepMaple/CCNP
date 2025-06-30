@@ -1,0 +1,10 @@
+==
+
+Aironet IE(Aironet Information Element):
+  cisco專屬，用以識別cisco AP。
+
+==
+
+show netconf schema | section rpc-reply
+
+==
