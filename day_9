@@ -19,3 +19,9 @@ se-connect(spectrum expert) mode:
   抓取封包給wireshark做分析。
 
 ==
+
+RP(Routing Processor) in stackwise switch:
+  跟multicast RP不一樣
+
+==
+
