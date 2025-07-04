@@ -1,8 +1,18 @@
 ==
 
-control plane: OMP(overlay management protocol)
-data plane: IPSEC, TLS, DTLS
-用途：廣域網路自動化與策略管理（分支機構互聯）。
+用途：
+  廣域網路自動化與策略管理（分支機構互聯）。
+
+control plane: 
+  1. OMP(overlay management protocol)
+
+  2. BFD (Bidirectional Forwarding Detection):
+    一種快速的故障偵測協定，用來偵測路徑是否可達用來檢查TLOC的可用性，觸發快速failover
+
+
+data plane: 
+  1. IPSEC
+  2. TLOC
 
 ==
 
