@@ -1,0 +1,13 @@
+==
+
+complete mediation(中介):
+  每一次存取資源的行為，都必須經過授權機制的中介與檢查，而不能只在第一次或建立連線時做檢查。
+
+==
+
+Fail-safe defaults:
+  預設deny all。
+
+==
+
+
