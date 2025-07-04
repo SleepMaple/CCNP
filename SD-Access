@@ -1,0 +1,18 @@
+==
+
+Control Plane:
+  LISP
+
+Data Plane:
+  VXLAN
+
+==
+
+Edge Node:
+  終端設備的第一跳，處理封裝/解封 VXLAN、LISP。
+
+Border Node:
+  負責 SDA 與外部傳統網路互通
+
+Extended Node:
+  不跑LISP，但可以延伸non-fabrice接入DNAC，layer 2 access switch。
