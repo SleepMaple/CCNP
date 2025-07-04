@@ -1,0 +1,16 @@
+==
+
+control plane: OMP(overlay management protocol)
+data plane: IPSEC, TLS, DTLS
+用途：廣域網路自動化與策略管理（分支機構互聯）。
+
+==
+
+vBond:協調與裝置認證，建立control plane連線關係。
+vEdge:實際部署於分支機構的路由器，承載資料流量。
+vSmart:政策分發、路由控制、安全策略、tunnel security參數交換。
+vManage:網頁管理平台。
+
+==
+
+
